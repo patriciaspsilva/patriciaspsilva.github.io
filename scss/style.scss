@@ -250,6 +250,7 @@ i {
         text-align: center;
         opacity: 0;
         display: none;
+        margin-bottom: 300px;
         &:after{
             content: "|";
             animation: blink linear 1s infinite;
@@ -323,7 +324,7 @@ i {
 .modal {
     position: absolute;
     left: 50%;
-    bottom: 10vh;
+    bottom: -400px;
     opacity: 0;
     z-index: 99999;
     transform: translate(-50%, -50%);
