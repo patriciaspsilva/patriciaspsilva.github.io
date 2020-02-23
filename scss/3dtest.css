@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html, body {
+  width: 100%;
+  scroll-behavior: smooth;
+  text-decoration-color: rgba(246, 111, 183, 0.6);
+}
+
+::selection {
+  background: rgba(246, 111, 183, 0.6);
+}
+
+::-moz-selection {
+  background: #000;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+  color: #FFF;
+  font-size: 16px;
+  background-color: #000;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 100;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100vh;
+  position: fixed;
+}
+
+svg {
+  display: inline-block;
+}
+
+article {
+  text-align: center;
+}
+
+i {
+  display: inline-block;
+  width: 50px;
+}
+
+.fixed-img {
+  float: right;
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.text {
+  display: none;
+  color: #fff;
+  font-size: 10vh;
+  position: absolute;
+  top: 0;
+  right: 10vw;
+}
+
+#space-two {
+  height: 100vh;
+  top: 0;
+  position: relative;
+  width: 100%;
+}
+
+/*# sourceMappingURL=3dtest.css.map */
