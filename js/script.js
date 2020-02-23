@@ -30,7 +30,7 @@ function init() {
     //scene.add( mesh );
     cubeSineDriver = 0;
 
-    textGeo = new THREE.PlaneGeometry(300,100);
+    textGeo = new THREE.PlaneGeometry(200,100);
     THREE.ImageUtils.crossOrigin = '';
     textTexture = THREE.ImageUtils.loadTexture('images/pat_assinatura.png');
     textMaterial = new THREE.MeshLambertMaterial({color: 'white', opacity: 4, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
